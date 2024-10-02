@@ -40,7 +40,7 @@ app.listen(PORT, () => {
 const options = {
 	method: 'GET',
 	headers: {
-	  accept: 'application/json',
+	  accept: 'application/json',	
 	  Authorization: 'Bearer ' + ENV_VARS.TMDB_API_KEY
 	}
   };
